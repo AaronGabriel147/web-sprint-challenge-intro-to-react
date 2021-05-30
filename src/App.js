@@ -5,9 +5,18 @@ import './App.css';
 import Character from './components/Character'
 
 
+const T = styled.div`
+  // border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+  
+`;
+
 const StyledH1 = styled.h1`
   color: dodgerblue;
   font-size: 3rem;
+  left: -25px;
 `;
 
 
@@ -29,10 +38,10 @@ export default function App() {
 
   return (
     <>
-      <div className="App">
-        <StyledH1>CHARACTERS</StyledH1>
+      <T>
+        <StyledH1>STAR WARS CHARACTERS</StyledH1>
+      </T>
         <Character apiData={apiData}/>             {/* 6 names. 1 per line... PROPS for child. Array of 6 objects, manipulated be a child component (or soon to be) */}
-      </div>
     </>
   );
 }
