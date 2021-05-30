@@ -16,7 +16,7 @@ const T = styled.div`
 const StyledH1 = styled.h1`
   color: dodgerblue;
   font-size: 3rem;
-  left: -25px;
+  right: 25px;
 `;
 
 
