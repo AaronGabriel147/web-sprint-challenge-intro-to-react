@@ -30,8 +30,8 @@ export default function App() {
   return (
     <>
       <div className="App">
-        <StyledH1>Characters (H1 with component styles)</StyledH1>
-        <Character apiData={apiData}/>             {/* PROPS for child. Array of 6 objects, manipulated be a child component (or soon to be) */}
+        <StyledH1>CHARACTERS</StyledH1>
+        <Character apiData={apiData}/>             {/* 6 names. 1 per line... PROPS for child. Array of 6 objects, manipulated be a child component (or soon to be) */}
       </div>
     </>
   );
